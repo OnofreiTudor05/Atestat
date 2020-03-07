@@ -1,0 +1,33 @@
+<!DOCTYPE html>													  <!-- declaram fisierul de tip HTML -->	
+<html lang="en">                                                  <!-- setam limba de scriere a documentului HTML -->
+	<meta charset="UTF-8">										  <!-- setam modul de codificare al caracterelor -->
+   	<title> Barnsley Generator </title>                           <!-- setam titlul barei din browser -->  
+		<link rel="icon" href="Imagini/Icon2.png">				  <!-- setam iconita din dreptul barei --> 	
+		<link rel="stylesheet" href="Design1.css">				  <!-- legam printr-un link fisierul CSS "Design1.css" pentru a putea accesa diferitele taguri formatate -->	
+                                                                                                                                                                                
+   <body>																		<!-- deschidem corpul paginii -->                                                            
+   	 <p class="central"> <img src="Imagini/Imagine_Index4.png" alt=""> </p>     <!-- desenam intr-un paragraf la centru imaginea "Barnsley Generator" -->
+	                                                                                                                                                                           
+   <form action="Creeaza_Fractal.php" method="post">                            <!-- cream un formular pentru introducerea datelor referitoare la fractal --> 
+		<p> Alege tipul fractalului:                    						<!-- afisam intr-un paragraf totul -->
+		<select name="tip">                                                     <!-- cream un tag de tip "select" in care specificam optiunile pentru tipul de fractal -->   
+		<option value="Clasic"> Clasic </option>                                
+		<option value="Cyclosorus"> Cyclosorus </option>
+		<option value="Culcita dubia"> Culcita dubia </option>
+		<option value="Fishbone"> Fishbone </option>
+		</select>                                                               <!-- inchidem tagul "select" -->
+		</p>                                                					<!-- incheiem paragraful -->
+     <div class="centru" style="font-family:Times New Roman"> Seteaza culorile fractalului, a umbrei si a fundalului: <input name="culoare_frunza" type="color" value="#ff0000"><input name="culoare_umbra" type="color" value="#ff0000"><input name="culoare_fundal"  type="color" value="#ff0000"></div>  <!-- cream cele 3 butoane prin care introducem culorile pentru fractalul ce va urma a fi creat -->
+	 <p> Alege numarul de puncte din care sa fie format fractalul:                <!-- afisam intr-un paragraf totul --> 
+	 <select name="calitate">                                                   <!-- cream un tag de tip "select" in care specificam optiunile pentru numarul de puncte din care sa fie format fractalul --> 
+	 	<option value="Simplu"> 400000 </option>
+		<option value="Mediu"> 700000 </option>
+		<option value="Complex"> 1000000 </option>
+	 </select>																	<!-- inchidem tagul "select" -->	
+	 </p>																		<!-- incheiem paragraful -->
+	 
+	 
+	 <div class="centru"> <input name="Genereaza" type="submit" value="Genereaza fractal"> <input name="Random_colors" type="submit" value="Genereaza fractal de culori aleatorii"> <input name="Random_fractal" type="submit" value="Genereaza fractal complet aleatoriu"> <input name="Galerie" type="submit" value="Galerie"></div> 	<!-- Cream butoanele pentru optiunile de alegere al datelor de creare pentru fractal: crearea fractalului - folosind datele introduse, - de culori aleatorii, - complet aleatoriu sau butonul pentru accesare al galeriei -->
+ </form>                       <!-- inchidem formularul -->
+</body>                        <!-- inchidem corpul paginii --> 
+</html>						   <!-- inchidem tagul HTML al paginii -->

@@ -1,0 +1,101 @@
+				canvas {
+					border: dashed;
+					border-width: 5px;
+					margin-right: 10px;
+					margin-bottom: 5px;
+					margin-top: 5px;
+					border-color: rgba(255, 255, 255, 1);
+				}
+				div.scrollmenu {
+					text-align: center;
+					background-color: rgba(0, 0, 0, 0.8);
+					overflow-x: scroll;
+					white-space: nowrap;
+				}
+				div.scrollmenu img {
+					border: dashed;
+					border-width: 5px;
+					margin-right: 10px;
+					margin-bottom: 5px;
+					margin-top: 5px;
+					border-color: rgba(255, 255, 255, 1);
+					display: inline-block;
+					text-align: center;
+				}
+				div.scrollmenu img:hover {
+					border-color: rgba(3, 200, 0, 1);
+				}
+				body {
+					background-image:url(Imagini/BackgroundF.jpg);
+					background-size: cover;
+					background-attachment: fixed;
+					animation-name: make_a_change1;
+					animation-duration: 120s;
+					animation-iteration-count: infinite;
+					width: auto;
+				}
+				@keyframes make_a_change1 {
+					0% {
+						background-position: 0% 0%;
+					}
+					25% {
+						background-position: -25% 0%;
+					}
+					50% {
+						background-position: -50% 0%;
+					}
+					75% {
+						background-position: -75% 0%;
+					}
+					100% {
+						background-position: -100% 0%;
+					}	
+				}
+				href {
+					text-decoration: none;
+				}
+				a:link {
+					background-color: rgba(0, 59, 3, 1);
+					color: white;
+					cursor: pointer;
+					padding: 16px 32px;
+					font-size: 15px;       
+					text-decoration: bold;
+					text-align: center;
+					border-radius: 20px;
+				}
+				a:hover {
+					background-color: rgba(0, 0, 0, 1);
+					color: rgba(255, 255, 255, 1);
+					text-decoration: bold;
+					text-align: center;
+				}
+				p, center {
+					background-color: rgba(255, 255, 255, 0.8);
+					font-size: 20px;
+					font-weight: bold;
+					color: rgba(0, 59, 3, 1);
+					width: auto;
+				}
+				p.tip {
+					text-align: center;
+					background-color: rgba(0, 0, 0, 0.8);
+					font-size: 20px;
+					font-weight: bold;
+					color: rgba(255, 255, 255, 1);
+				}
+				p.tip1 {
+						text-align: center;	
+				}
+				img.img1{
+					border: dashed;
+					border-width: 5px;
+					margin-right: 10px;
+					margin-bottom: 5px;
+					margin-top: 5px;
+					border-color: rgba(255, 255, 255, 1);
+					width: auto;
+				}
+				img.img1:hover {
+					border-color: rgba(3, 200, 0, 1);
+				}

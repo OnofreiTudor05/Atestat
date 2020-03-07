@@ -1,0 +1,88 @@
+			body {
+					background-image: url(Imagini/BackgroundF.jpg);
+					background-size: cover;
+					background-repeat: repeat-x;
+					background-attachment: fixed;
+					animation: make_a_change 60s linear infinite;
+				}
+				@keyframes make_a_change {
+					from{
+						background-position: 0 0;
+					}
+					to{
+						background-position: 100% 0;
+					}
+				}
+			pre, p, center{
+				background-color: rgba(255, 255, 255, 0.6);
+				color: rgba(0, 0, 0, 1);
+				font-weight: bold;
+				width: 100%;
+				text-align: center;
+			}
+			div.centru{
+				text-align: center;
+				background-color: rgba(255, 255, 255, 0.6);
+				color: rgba(0, 0, 0, 1);
+				font-weight: bold;
+				width: 100%;
+			}
+			p.central{
+				text-align: center;
+				background-color: rgba(255, 255, 255, 0.6);
+				color: rgba(0, 0, 0, 1);
+				font-weight: bold;
+				width: 100%;
+			}
+			.button {
+				background-color: rgba(0, 59, 3, 1);
+				color: white;
+				cursor: pointer;
+				padding: 16px 32px;
+				font-size: 15px;
+				text-decoration: bold;
+				text-align: center;
+				border-radius: 20px;
+			}
+			.button:hover{
+				background-color: rgba(0, 0, 0, 1);
+				color: rgba(255, 255, 255, 1);
+				text-decoration: bold;
+				text-align: center;
+			}
+			input[type=submit]{
+				background-color: rgba(0, 59, 3, 1);
+				color: white;
+				cursor: pointer;
+				padding: 16px 32px;
+				font-size: 15px;
+				text-decoration: bold;
+				text-align: center;
+				border-radius: 20px;
+			}
+			input[type=submit]:hover{
+				background-color: rgba(0, 0, 0, 1);
+				color: rgba(255, 255, 255, 1);
+				text-decoration: bold;
+				text-align: center;
+			}
+			select{
+				background-color: rgba(0, 59, 3, 1);
+				color: white;
+				text-align: center;
+				border-radius: 20px;
+				width: 20%;
+				margin: 6px;
+			}
+			select:hover{
+				background-color: rgba(0, 0, 0, 1);
+				color: white;
+			}
+			option{
+				background-color: rgba(0, 0, 0, 1);
+				color: white;
+			}
+			img {
+				width: 100%;
+				height: auto;
+			}
